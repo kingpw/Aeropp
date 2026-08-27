@@ -1,0 +1,32 @@
+# Minecraft runtime data
+**/logs/
+**/crash-reports/
+**/saves/
+**/screenshots/
+**/journeymap/
+**/xaero/
+
+# Downloaded mod binaries and generated exports
+**/mods/*.jar
+*.mrpack
+*.zip
+/build/
+/dist/
+
+# Local tools and launchers
+packwiz
+packwiz.exe
+.minecraft/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local credentials and environment files
+.packwiz.toml
+*.env
+*.env.*

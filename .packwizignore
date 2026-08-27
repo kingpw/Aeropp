@@ -1,0 +1,15 @@
+.git/
+.github/
+.idea/
+.vscode/
+build/
+dist/
+docs/
+*.mrpack
+*.zip
+packwiz
+packwiz.exe
+README.md
+.gitattributes
+.gitignore
+.packwizignore
