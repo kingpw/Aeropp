@@ -1,0 +1,13 @@
+name = "Lan Server Properties"
+filename = "lanserverproperties-1.13.2-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "be35dc531943b64e66295198276a0fcb38be0784"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5891138
+project-id = 387365

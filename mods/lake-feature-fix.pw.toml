@@ -1,0 +1,13 @@
+name = "Lake Feature Fix"
+filename = "lakefeaturefix-neoforge-1.21.1-21.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/fBI87qhz/versions/YdZAdyf8/lakefeaturefix-neoforge-1.21.1-21.0.0.jar"
+hash-format = "sha512"
+hash = "18d8e14cf98be8706ada2f4a5acf43253c28ec71ed2dc34411c2ea6010cecf924a410bfa7ca98cef7edcd0399b272c6f1dfea1d110ff69448c9499271f1e301b"
+
+[update]
+[update.modrinth]
+mod-id = "fBI87qhz"
+version = "YdZAdyf8"

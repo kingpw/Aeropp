@@ -1,6 +1,6 @@
 # Aeropp
 
-Minecraft 1.21.1 + NeoForge 21.1.230 + Java 21 的联合开发整合包。
+Minecraft 1.21.1 + NeoForge 21.1.248 + Java 21 的联合开发整合包。
 
 本仓库保存整合包的可审查来源文件，使用 [packwiz](https://packwiz.infra.link/) 管理模组版本和文件索引，使用 PCL2 创建、导入并启动本地游戏实例。
 
@@ -8,10 +8,10 @@ Minecraft 1.21.1 + NeoForge 21.1.230 + Java 21 的联合开发整合包。
 
 - 仓库：`kingpw/Aeropp`
 - Minecraft：`1.21.1`
-- Mod 加载器：`NeoForge 21.1.230`
+- Mod 加载器：`NeoForge 21.1.248`
 - Java：`21`（请在 PCL2 的该实例设置中指定 64 位 Java 21）
 - 发布方式：不发布到 Modrinth 或 CurseForge；GitHub 私有仓库用于联合开发
-- 当前模组列表：待添加
+- 当前内容：54 个模组文件（53 个 packwiz 元数据项目和 1 个本地 `testmod`）及 1 个光影包
 
 ## 目录约定
 
@@ -36,12 +36,12 @@ git clone https://github.com/kingpw/Aeropp.git
 cd Aeropp
 ```
 
-安装 packwiz 后，可以从 Modrinth 或 CurseForge 添加模组：
+使用项目根目录中的本地 `packwiz.exe`，可以从 Modrinth 或 CurseForge 添加模组：
 
 ```powershell
-packwiz modrinth add <模组链接或项目 ID>
-# 或：packwiz curseforge add <模组链接或项目 ID>
-packwiz refresh
+.\packwiz.exe modrinth add <模组链接或项目 ID>
+# 或：.\packwiz.exe curseforge add <模组链接或项目 ID>
+.\packwiz.exe refresh
 git add .
 git commit -m "添加 xxx 模组"
 git push
@@ -51,8 +51,8 @@ git push
 
 ```powershell
 git switch -c feature/add-xxx
-packwiz update --all
-packwiz refresh
+.\packwiz.exe update --all
+.\packwiz.exe refresh
 git add .
 git commit -m "更新模组版本"
 git push -u origin feature/add-xxx
@@ -65,7 +65,7 @@ git push -u origin feature/add-xxx
 
    ```powershell
    New-Item -ItemType Directory -Path build -Force | Out-Null
-   packwiz modrinth export -o build/Aeropp-0.1.0.mrpack
+   .\packwiz.exe modrinth export -o build/Aeropp-0.1.0.mrpack
    ```
 
 3. 在 PCL2 中导入该整合包，使用独立的实例目录测试。

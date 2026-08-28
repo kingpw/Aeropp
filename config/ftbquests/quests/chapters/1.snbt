@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: ""
+	id: "0DF907FAB2F5B2E5"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "4CC2E6F6E23581EB"
+		tasks: [{
+			id: "2FB1BF5DEAAE8A15"
+			item: { count: 1, id: "create:cogwheel" }
+			type: "item"
+		}]
+		x: -2.0d
+		y: -1.0d
+	}]
+}

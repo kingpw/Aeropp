@@ -15,7 +15,7 @@ Aeropp 是一个正在开发中的 Minecraft Java 版科技冒险整合包。项
 | 项目 | 当前选择 |
 | --- | --- |
 | Minecraft | `1.21.1` |
-| Mod加载器 | `NeoForge 21.1.230` |
+| Mod加载器 | `NeoForge 21.1.248` |
 | Java | `21`，64位 |
 | 整合包版本 | `0.1.0` |
 | 核心方向 | Create + Create: Aeronautics |
@@ -228,17 +228,17 @@ cd Aeropp
 使用packwiz添加模组：
 
 ```powershell
-packwiz modrinth add <模组链接或项目ID>
+.\packwiz.exe modrinth add <模组链接或项目ID>
 # 或
-packwiz curseforge add <模组链接或项目ID>
-packwiz refresh
+.\packwiz.exe curseforge add <模组链接或项目ID>
+.\packwiz.exe refresh
 ```
 
 导出临时测试包：
 
 ```powershell
 New-Item -ItemType Directory -Path build -Force | Out-Null
-packwiz modrinth export -o build/Aeropp-0.1.0.mrpack
+.\packwiz.exe modrinth export -o build/Aeropp-0.1.0.mrpack
 ```
 
 在PCL2中导入生成的 `.mrpack`，并为该实例指定64位Java 21。测试通过后只提交配置、脚本、资源和packwiz元数据，不提交下载的模组JAR、日志、缓存或测试存档。
@@ -271,4 +271,3 @@ packwiz modrinth export -o build/Aeropp-0.1.0.mrpack
 Aeropp 不是 Create、Create: Aeronautics、Sable、FTB或Mojang的官方项目。所有第三方模组、代码和资源均归各自作者所有，并遵循各自许可证。
 
 项目自身代码、配置、文档和美术资源的公开许可尚未确定。在许可文件正式加入仓库前，请勿擅自转载或发布仓库内容。
-

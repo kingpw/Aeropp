@@ -1,0 +1,8 @@
+{
+  "configVariant": 1,
+  "maxWaveSize": 20,
+  "defaultMobId": "minecraft:zombie",
+  "extraSpawnInfo": "none",
+  "hordeMobs": [],
+  "internalConfigVersion": 1
+}

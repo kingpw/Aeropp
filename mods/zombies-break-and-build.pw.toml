@@ -1,0 +1,13 @@
+name = "Zombie Break & Build"
+filename = "ZombiesBreak&Build-neoforge-1.21.1-1.6.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/z1e0VLjL/versions/ofzozig5/ZombiesBreak%26Build-neoforge-1.21.1-1.6.3.jar"
+hash-format = "sha512"
+hash = "7942fff8919397c659755269dad3a910479942fa1286ef97690bc0bcb4d651af63da00ccc054c4f36a771167b01f03e8137e66fa2493a699127af20ca99fbc49"
+
+[update]
+[update.modrinth]
+mod-id = "z1e0VLjL"
+version = "ofzozig5"

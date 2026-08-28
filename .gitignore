@@ -1,22 +1,22 @@
 # Minecraft runtime data
-**/logs/
-**/crash-reports/
-**/saves/
-**/screenshots/
-**/journeymap/
-**/xaero/
+/logs/
+/crash-reports/
+/saves/
+/screenshots/
+/journeymap/
+/xaero/
 
 # Downloaded mod binaries and generated exports
 **/mods/*.jar
-*.mrpack
-*.zip
+/*.mrpack
+/*.zip
 /build/
 /dist/
 
 # Local tools and launchers
-packwiz
-packwiz.exe
-.minecraft/
+/packwiz
+/packwiz.exe
+/.minecraft/
 
 # IDE and operating-system files
 .idea/
