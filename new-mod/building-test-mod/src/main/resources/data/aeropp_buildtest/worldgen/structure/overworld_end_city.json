@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#aeropp_buildtest:overworld_end_city",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none",
+  "start_pool": "minecraft:end_city/towers",
+  "size": 7
+}

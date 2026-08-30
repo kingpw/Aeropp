@@ -770,6 +770,14 @@ hash = "5e01b450ee07e9e9916ab460291e9c97e57871c2287e9b1f54668cbe9a45045e"
 metafile = true
 
 [[files]]
+file = "mods/test-aeropp_buildtest-0.1.0.jar"
+hash = "d6eaafab679ab2d867a234bfb04b637e4fd41461eca2d35f69203db435500ecc"
+
+[[files]]
+file = "mods/test-aeropp_mobtest-0.1.0.jar"
+hash = "377d6142789f1a539cada40f92027b7f194378e26af1fb1f1edf6c2d0fecd9c2"
+
+[[files]]
 file = "mods/testmod-1.0.0.jar"
 hash = "e40d84e3d670f58f1d12c4d6c2de917c0ff86a2e84b3e14e0f464804b21cb34c"
 

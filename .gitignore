@@ -8,6 +8,7 @@
 
 # Downloaded mod binaries and generated exports
 **/mods/*.jar
+!mods/test-*.jar
 /*.mrpack
 /*.zip
 /build/

@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/kingpw/Aeropp/issues"
+
+[[mods]]
+modId="aeropp_buildtest"
+version="${file.jarVersion}"
+displayName="Aeropp Building Test"
+authors="Aeropp Team"
+description='''Data-driven overworld End City generation experiment for Aeropp.'''
+
+[[dependencies.aeropp_buildtest]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.aeropp_buildtest]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

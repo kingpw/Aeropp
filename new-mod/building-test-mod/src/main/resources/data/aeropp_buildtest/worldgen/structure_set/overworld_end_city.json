@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "aeropp_buildtest:overworld_end_city",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387312,
+    "separation": 26,
+    "spacing": 34
+  }
+}
