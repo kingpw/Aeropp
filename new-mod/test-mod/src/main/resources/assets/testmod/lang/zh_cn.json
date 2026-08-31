@@ -1,0 +1,20 @@
+{
+    "itemGroup.testmod":  "测试模组标签页",
+    "item.testmod.enhanced_jetpack":  "加强喷气背包",
+    "item.testmod.enhanced_jetpack.tooltip":  "穿戴时近战攻击伤害 +20%",
+    "entity.testmod.large_monster_airship":  "大型怪物飞艇",
+    "item.testmod.large_monster_airship_spawn_egg":  "大型怪物飞艇刷怪蛋",
+    "entity.testmod.undead_sky_city":  "亡灵天城",
+    "item.testmod.undead_sky_city_spawn_egg":  "亡灵天城刷怪蛋",
+    "entity.testmod.warship":  "战舰",
+    "item.testmod.warship_spawn_egg":  "战舰刷怪蛋",
+    "entity.testmod.shell":  "炮弹",
+    "item.testmod.laser_gun":  "激光枪",
+    "key.testmod.reload":  "换弹",
+    "item.testmod.flak_shell":  "高射炮弹",
+    "entity.testmod.flak_shell":  "高射炮弹",
+    "entity.testmod.flak_cannon":  "高射炮",
+    "item.testmod.flak_cannon_spawn_egg":  "高射炮刷怪蛋",
+    "entity.testmod.laser_zombie":  "尸界军",
+    "item.testmod.laser_zombie_spawn_egg":  "尸界军刷怪蛋"
+}

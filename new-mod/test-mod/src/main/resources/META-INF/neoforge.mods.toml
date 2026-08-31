@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/kingpw/Aeropp/issues"
+
+[[mods]]
+modId="testmod"
+version="${file.jarVersion}"
+displayName="Test Mod"
+authors="Aeropp Team"
+description='''Experimental combat content imported into the Aeropp development workspace.'''
+
+[[dependencies.testmod]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.testmod]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.testmod]]
+modId="create"
+type="required"
+versionRange="[6.0.10,6.1)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.testmod]]
+modId="create_jetpack"
+type="required"
+versionRange="[5.2.1,6)"
+ordering="AFTER"
+side="BOTH"

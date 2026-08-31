@@ -1,0 +1,20 @@
+{
+    "itemGroup.testmod":  "Test Mod Tab",
+    "item.testmod.enhanced_jetpack":  "Enhanced Jetpack",
+    "item.testmod.enhanced_jetpack.tooltip":  "+20% melee damage while worn",
+    "entity.testmod.large_monster_airship":  "Large Monster Airship",
+    "item.testmod.large_monster_airship_spawn_egg":  "Large Monster Airship Spawn Egg",
+    "entity.testmod.undead_sky_city":  "Undead Sky City",
+    "item.testmod.undead_sky_city_spawn_egg":  "Undead Sky City Spawn Egg",
+    "entity.testmod.warship":  "Warship",
+    "item.testmod.warship_spawn_egg":  "Warship Spawn Egg",
+    "entity.testmod.shell":  "Shell",
+    "item.testmod.laser_gun":  "Laser Gun",
+    "key.testmod.reload":  "Reload",
+    "item.testmod.flak_shell":  "Flak Shell",
+    "entity.testmod.flak_shell":  "Flak Shell",
+    "entity.testmod.flak_cannon":  "Flak Cannon",
+    "item.testmod.flak_cannon_spawn_egg":  "Flak Cannon Spawn Egg",
+    "entity.testmod.laser_zombie":  "Undead Legion",
+    "item.testmod.laser_zombie_spawn_egg":  "Undead Legion Spawn Egg"
+}
