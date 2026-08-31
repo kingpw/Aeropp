@@ -1,0 +1,14 @@
+# Python bytecode and local caches
+__pycache__/
+*.py[cod]
+
+# Offline viewer dependencies installed by pnpm
+offline_viewer/node_modules/
+
+# Mod assets extracted from a local Minecraft instance at render time
+offline_viewer/cache/*.jar
+
+# Generated scene and render files
+build/
+renders/
+*.packs.json

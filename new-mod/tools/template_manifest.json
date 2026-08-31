@@ -1,0 +1,82 @@
+{
+  "field_battery": {
+    "size": [
+      23,
+      10,
+      23
+    ],
+    "palette_entries": 27,
+    "block_entries": 725,
+    "sha256": "e97d45faff083d2b5dc98f9f220eb4afd1935af281abc00295c9dddbb5c5038c"
+  },
+  "ironclad_watchtower": {
+    "size": [
+      17,
+      30,
+      17
+    ],
+    "palette_entries": 22,
+    "block_entries": 1552,
+    "sha256": "f30cc258fcc3c4249bc74e1e482abdc55d8631b70a18a8710025dff94f97628d"
+  },
+  "clockwork_dock": {
+    "size": [
+      81,
+      40,
+      70
+    ],
+    "palette_entries": 98,
+    "block_entries": 37836,
+    "sha256": "d76193d1319aabb45e30bc091f98eb02424ac6ab26b73a18b7cb1802121f2ec2"
+  },
+  "bombed_outpost": {
+    "size": [
+      23,
+      10,
+      23
+    ],
+    "palette_entries": 22,
+    "block_entries": 489,
+    "sha256": "bcd00187ff8c1072a5961d4f5b4f2a54b7f8010cc199416d895a2e591d59898c"
+  },
+  "ruined_engine_works": {
+    "size": [
+      29,
+      14,
+      25
+    ],
+    "palette_entries": 31,
+    "block_entries": 1166,
+    "sha256": "1e229e2914369d750fd3156e8c9287474e2a58877caf6615dd62e4bb72bd57a9"
+  },
+  "buried_reliquary": {
+    "size": [
+      25,
+      16,
+      25
+    ],
+    "palette_entries": 16,
+    "block_entries": 1613,
+    "sha256": "f6a794990fbba7de9f346c9f6ffecca31f13c376dd5d72f97f6fc40c5d16e29e"
+  },
+  "skywarden_fort": {
+    "size": [
+      35,
+      16,
+      35
+    ],
+    "palette_entries": 22,
+    "block_entries": 1820,
+    "sha256": "74cb62f1c0e76434e498b8168a4c90db49cc8a94be825b0e68fb7ed70b6fc97a"
+  },
+  "signal_obelisk": {
+    "size": [
+      15,
+      26,
+      15
+    ],
+    "palette_entries": 15,
+    "block_entries": 464,
+    "sha256": "8a037898ca8fe977725300ebd5d6f72f2a4ea2578d968a7a373401e5bce2293d"
+  }
+}

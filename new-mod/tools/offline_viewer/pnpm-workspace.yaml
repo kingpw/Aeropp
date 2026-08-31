@@ -1,0 +1,5 @@
+allowBuilds:
+  gl: true
+  node: true
+  sharp: true
+  skia-canvas: true

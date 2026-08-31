@@ -1,0 +1,11 @@
+{
+  "name": "aeropp-offline-structure-viewer",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "block-model-renderer": "^2.0.0"
+  },
+  "devDependencies": {
+    "node": "^22.0.0"
+  }
+}
