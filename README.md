@@ -79,3 +79,4 @@ git push -u origin feature/add-xxx
 - 提交信息说明具体改动，例如 `添加 Create`、`调整性能配置`。
 - 涉及 Minecraft、NeoForge 或模组大版本变更时，必须在 PR 中记录兼容性和测试结果。
 - 模组文件应从 Modrinth、CurseForge 或作者提供的可信来源获取，并遵守对应许可。
+- 修改自研模组后，可运行 `.快速测试构建.ps1` 构建三个开发工程并将 JAR 原位同步到 PCL2 的 Aeropp 实例；请先关闭正在运行的游戏。
