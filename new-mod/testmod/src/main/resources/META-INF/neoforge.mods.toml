@@ -6,7 +6,7 @@ issueTrackerURL="https://github.com/kingpw/Aeropp/issues"
 [[mods]]
 modId="testmod"
 version="${file.jarVersion}"
-displayName="Test Mod"
+displayName="testmod"
 authors="Aeropp Team"
 description='''Experimental combat content imported into the Aeropp development workspace.'''
 

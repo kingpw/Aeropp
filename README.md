@@ -11,7 +11,7 @@ Minecraft 1.21.1 + NeoForge 21.1.248 + Java 21 的联合开发整合包。
 - Mod 加载器：`NeoForge 21.1.248`
 - Java：`21`（请在 PCL2 的该实例设置中指定 64 位 Java 21）
 - 发布方式：不发布到 Modrinth 或 CurseForge；GitHub 私有仓库用于联合开发
-- 当前内容：54 个模组文件（53 个 packwiz 元数据项目和 1 个本地 `testmod`）及 1 个光影包
+- 当前内容：54 个模组文件（53 个 packwiz 元数据项目和 1 个 `testmod` 测试模组 JAR）及 1 个光影包
 
 ## 目录约定
 

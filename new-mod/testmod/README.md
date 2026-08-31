@@ -1,4 +1,4 @@
-# Test Mod
+# testmod
 
 这是从 `src.zip` 整合到 Aeropp 的独立 NeoForge 模组工程，保留原有 `com.testmod` 包名与 `testmod` 资源命名空间。
 

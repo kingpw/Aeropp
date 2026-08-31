@@ -1,5 +1,5 @@
 {
-    "itemGroup.testmod":  "Test Mod Tab",
+    "itemGroup.testmod":  "testmod Tab",
     "item.testmod.enhanced_jetpack":  "Enhanced Jetpack",
     "item.testmod.enhanced_jetpack.tooltip":  "+20% melee damage while worn",
     "entity.testmod.large_monster_airship":  "Large Monster Airship",

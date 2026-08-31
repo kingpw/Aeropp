@@ -153,5 +153,5 @@ New-Item -ItemType Directory -Path build -Force | Out-Null
 - 已转换为 54 个 `.pw.toml`：53 个模组元数据和 1 个光影包元数据；
 - 已保留 `config/`、`tacz/`、`options.txt` 和 `TrashSlotSaveState.json`，并排除 PCL 本机设置及 `.bak` 文件；
 - packwiz 自动补充了原包缺失的必需依赖 `WorldgenFeatureFix`；
-- `mods/testmod-1.0.0.jar` 是本地自研模组，许可标记为 All Rights Reserved，未找到公开下载元数据；该文件被 Git 忽略，但必须保留在本机才能完整导出和运行；
-- 在分发包含 CurseForge 模组或本地 `testmod` 的 `.mrpack` 前，必须确认相应许可和再分发权限。
+- `mods/test-testmod-1.0.0.jar` 是 `new-mod/testmod` 构建的测试模组，许可标记为 All Rights Reserved；该测试产物使用 `test-` 文件名前缀并纳入 Git 与 packwiz 索引。
+- 在分发包含 CurseForge 模组或自研 `testmod` 的 `.mrpack` 前，必须确认相应许可和再分发权限。
