@@ -17,7 +17,6 @@ $modules = @(
 if (-not (Test-Path -LiteralPath $modsDir -PathType Container)) {
     throw "PCL2 实例 mods 目录不存在：$modsDir"
 }
-
 foreach ($module in $modules) {
     $projectDir = Join-Path $repoRoot $module.Project
     $outputPath = Join-Path $projectDir $module.Output
@@ -61,4 +60,3 @@ foreach ($module in $modules) {
     }
     Write-Host ("已同步 {0} -> {1} ({2})" -f $module.Project, $installedPath, $sourceHash)
 }
-
